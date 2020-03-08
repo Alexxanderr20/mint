@@ -4,6 +4,7 @@
         <title>
             Intuit Accounts - Sign Up
         </title>
+        <link rel = "stylesheet" href = "mint.css">
     </head>
 
     <body>
@@ -17,10 +18,46 @@
         </header>
 
         <section>
-            <h2>Create an Intuit account</h2>
-            <p>One account for everything Intuit, including Mint.</p>
-            <small>Learn More</small>
-            <p>Already have an account? <a href = "https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">Sign in</a>  </p>
+            <div>
+                <h2>Create an Intuit account</h2>
+                <p>One account for everything Intuit, including Mint.</p>
+                <small>Learn More</small>
+                <p>Already have an account? <a href = "https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">Sign in</a></p>
+            </div>
+
+            <div id = "email-form">
+                <label for "email">Email Address</label>
+                <input type = "email" id = "email" name = "email">
+            </div>
+
+            <div id = "phone-form">
+                <label for = "phone">Phone(recommended)</label>
+                <input type = "tel" id = "phone" name = "phone">
+            </div>
+
+            <div id = "password-form">
+                <label for = "password">Password</label>
+                <input type = "password" id = "password" name = "password">
+            </div>
+
+            <div>
+                <input type = "submit" id = "submit" value = "Create Account">
+            </div>
+
+            <span>By clicking Create account, you agree to our<br>
+            <a href = "https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href = "https://www.intuit.com/privacy/">Privacy Statement.</a></span>
+            <footer>
+                <small>Invisible reCAPTCHA by Google <a href = "https://policies.google.com/privacy?hl=en">Privacy Policy</a> and  <a href = "https://policies.google.com/terms?hl=en">Terms of Use.</a></small>
+            </footer>
         </section>
+
+        <footer>
+            <span>Legal &nbsp; Privacy &nbsp; Security</span>
+            <br>
+            <span>&copy; 2020 Intuit Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered<br>
+            trademarks of Intuit Inc. <br>
+            Terms and conditions,features,support,pricing,and service options subject to change without<br>
+            notice.</span>
+        </footer>
     </body>
 </html>
