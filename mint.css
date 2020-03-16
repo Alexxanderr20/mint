@@ -1,0 +1,205 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    background-color: rgb(237, 237, 243);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul li
+{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+header
+{
+    width: 100%;
+    height: 5rem;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    padding: 2rem;
+}
+
+div
+{
+    width: 95%;
+}
+
+div p
+{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/*
+==================
+    FORM STYLES
+==================
+*/
+
+form
+{
+    width: 25rem;
+    height: 38.4rem;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+form header,
+form main
+{
+    padding: 2rem;
+}
+
+form header
+{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+form header p
+{
+    font-style: normal;
+}
+
+form header #title
+{
+    font-size: 1.5rem;
+}
+
+form header #subtitle
+{
+    font-size: 0.75rem;
+}
+
+form header a
+{
+    font-size: 1.2rem;
+}
+
+form div
+{
+    font-size: 0.5rem;
+    padding-bottom: 2.6rem;
+    display: block;
+    text-align: center;
+}
+
+form div label
+{
+    display: block;
+    text-align: justify;
+    padding-left: 2rem;
+}
+
+form div p
+{
+    display: block;
+    padding-top: 1.5rem;
+    line-height: 1.5rem;
+    font-size: .85rem;
+    color: grey;
+}
+
+form p
+{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+form span
+{
+    display: block;
+    padding: 1.2rem;
+    text-align: center;
+    color: grey;
+    font-size: 0.75rem;
+    background-color: rgb(237, 237, 243)
+}
+
+/*
+===================
+    FOOTER STYLES
+===================
+*/
+
+footer
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer a
+{
+    color: grey;
+    text-decoration: none;
+
+}
+footer p
+{
+    display: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+footer ul
+{
+    font-size: 3rem;
+}
+
+footer li,
+footer p
+{
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+/*
+=======================
+    FORM ELEMENT STYLES
+=======================
+*/
+
+label
+{
+    color: #404040;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+input
+{
+    display: inline-block;
+    width: 85%;
+    height: 0.25rem;
+    padding: 0.95rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+button
+{
+    display: block;
+    text-align: center;
+}
+
+#submit
+{
+    width: 20rem;
+    color:white;
+    margin: 0;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.85rem;
+    background-color: rgb(49, 135, 214);
+}
